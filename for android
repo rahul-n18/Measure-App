@@ -1,0 +1,33 @@
+Quickstart for Android
+
+bookmark_border
+To get started using ARCore with Android, you can run either the hello_ar_kotlin or hello_ar_java sample app included with the ARCore SDK. These sample apps use OpenGL, a programming interface for rendering 2D and 3D vector graphics. The apps display any detected planes and allow the user to tap on a plane to place a 3D model.
+
+
+
+Set up your development environment
+Install Android Studio version 3.1 or higher with Android SDK Platform version 7.0 (API level 24) or higher.
+
+If you are new to Android, see Building your first Android app.
+
+Open a sample project
+In Android Studio, clone the ARCore SDK GitHub repository.
+
+There are many ways to do this:
+
+For an established Android Studio installation:
+
+From the Git menu, select Clone.
+In the Version control drop-down, select Git as the version control system.
+In the URL field, enter the following URL to the ARCore GitHub repository:
+
+https://github.com/google-ar/arcore-android-sdk.git
+
+You can also open a Terminal and issue the git clone command as follows:
+
+
+git clone https://github.com/google-ar/arcore-android-sdk.git
+Open one of the sample projects as follows (you must explicitly open a project in order to build and run it).
+
+From the File menu, select Open.
+In the arcore-android-sdk/samples folder, select either the hello_ar_kotlin or hello_ar_java folder, and click Open.
