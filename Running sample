@@ -1,0 +1,11 @@
+Make sure your Android device is connected to the development machine and click Run  in Android Studio.
+
+Android Studio builds your project into a debuggable APK, installs the APK, and then runs the app on your device. For more information, see Build and Run Your App.
+
+You may be prompted to install or update Google Play Services for AR if it is missing or out of date. Select CONTINUE to install it from Google Play Store, or manually update it as described in Update Google Play Services for AR.
+
+The hello_ar_java app lets you place a three-dimensional ARCore pawn on detected AR plane surfaces. It is implemented with Android GL SurfaceView, which is used to render the camera preview and basic AR objects such as Planes and Anchors. hello_ar_java's sample rendering framework can be found in com/google/ar/core/examples/java/common/samplerender.
+
+
+
+link: https://developers.google.com/ar/develop/java/quickstart
